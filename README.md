@@ -25,3 +25,14 @@
 
 (22.05.03)
 이전에 간단한 프로젝트를 시작했을때는 조금 더 체계적으로 하고싶은 마음에 욕심이 커져서 잘 모르더라도 요구사항정의서, ERD, Design (feat.Figma) 까지 했었는데 혼자서 많은것을 하려다보니 막상 앱 구현보다는 기획에만 의존하는 경우가 많아져버려서 구현에 조금 더 신경쓰고자 기획적인 부분보다 구현 부분에 조금 더 신경을 쓰고자 이번에는 요구사항 정의서를 최대한 정확하게 만들고, 간단한 MVP 모델부터 만들어보려고 한다.
+
+
+(22.05.04)
+https://huiung.tistory.com/160
+https://duckssi.tistory.com/42
+https://velog.io/@k906506/Error-android.content.pm.ApplicationInfo-android.content.Context.getApplicationInfo-on-a-null-object-reference
+https://dtuto.com/questions/822/failed-to-open-qemu-pipe-qemud-network-invalid-argument
+https://copycoding.tistory.com/352?category=1013954
+https://doitddo.tistory.com/88
+https://material.io/components/bottom-navigation/android#theming-a-bottom-navigation-bar
+
