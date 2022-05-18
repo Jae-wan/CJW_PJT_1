@@ -46,3 +46,7 @@ https://kumgo1d.tistory.com/73
 https://youngest-programming.tistory.com/274
 https://codechacha.com/ko/android-navigation-basic/
 
+전화 기능을 어떻게 구현하면 좋을 것인가?
+https://greensky0026.tistory.com/207
+https://developer.android.com/guide/topics/connectivity/telecom/selfManaged?hl=ko
+
