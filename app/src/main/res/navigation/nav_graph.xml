@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FragmentCall">
+    <fragment
+        android:id="@+id/FragmentCall"
+        android:name="com.jjangdeuk.mbticall.fragment.FragmentCall"
+        android:label="FragmentCall"
+        tools:layout="@layout/fragment_call" >
+        <action
+            android:id="@+id/action_FragmentCall_to_FragmentHistory2"
+            app:destination="@id/FragmentHistory" />
+        <action
+            android:id="@+id/action_FragmentCall_to_FragmentMatching2"
+            app:destination="@id/FragmentMatching" />
+        <action
+            android:id="@+id/action_FragmentCall_to_FragmentSetting3"
+            app:destination="@id/FragmentSetting" />
+    </fragment>
+    <fragment
+        android:id="@+id/FragmentHistory"
+        android:name="com.jjangdeuk.mbticall.fragment.FragmentHistory"
+        android:label="FragmentHistory" >
+        <action
+            android:id="@+id/action_FragmentHistory_to_FragmentCall2"
+            app:destination="@id/FragmentCall" />
+        <action
+            android:id="@+id/action_FragmentHistory_to_FragmentMatching3"
+            app:destination="@id/FragmentMatching" />
+        <action
+            android:id="@+id/action_FragmentHistory_to_FragmentSetting2"
+            app:destination="@id/FragmentSetting" />
+    </fragment>
+    <fragment
+        android:id="@+id/FragmentMatching"
+        android:name="com.jjangdeuk.mbticall.fragment.FragmentMatching"
+        android:label="FragmentMatching" >
+        <action
+            android:id="@+id/action_FragmentMatching_to_FragmentHistory3"
+            app:destination="@id/FragmentHistory" />
+        <action
+            android:id="@+id/action_FragmentMatching_to_FragmentCall3"
+            app:destination="@id/FragmentCall" />
+        <action
+            android:id="@+id/action_FragmentMatching_to_FragmentSetting2"
+            app:destination="@id/FragmentSetting" />
+    </fragment>
+    <fragment
+        android:id="@+id/FragmentSetting"
+        android:name="com.jjangdeuk.mbticall.fragment.FragmentSetting"
+        android:label="FragmentSetting" >
+        <action
+            android:id="@+id/action_FragmentSetting_to_FragmentMatching2"
+            app:destination="@id/FragmentMatching" />
+        <action
+            android:id="@+id/action_FragmentSetting_to_FragmentHistory2"
+            app:destination="@id/FragmentHistory" />
+        <action
+            android:id="@+id/action_FragmentSetting_to_FragmentCall3"
+            app:destination="@id/FragmentCall" />
+    </fragment>
+</navigation>

@@ -36,3 +36,13 @@ https://copycoding.tistory.com/352?category=1013954
 https://doitddo.tistory.com/88
 https://material.io/components/bottom-navigation/android#theming-a-bottom-navigation-bar
 
+(22.05.18)
+> Bottom Navigation - Fragment - Navigation Host 연결 완료
+
+* 주로 참고한 사이트
+https://kumgo1d.tistory.com/73
+
+* 참고하면 좋을 것 같은 사이트
+https://youngest-programming.tistory.com/274
+https://codechacha.com/ko/android-navigation-basic/
+
