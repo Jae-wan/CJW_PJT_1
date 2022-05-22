@@ -50,3 +50,21 @@ https://codechacha.com/ko/android-navigation-basic/
 https://greensky0026.tistory.com/207
 https://developer.android.com/guide/topics/connectivity/telecom/selfManaged?hl=ko
 
+(22.05.22)
+텔레콤 프레임워크 (전화)
+https://developer.android.com/guide/topics/connectivity/telecom?hl=ko
+
+RemonCall을 이용한 단순 통화 앱 만들기(Android) 초안
+https://devguide.remotemonster.com/drafts/drafts/inside-remoncall-sdk/remoncall
+https://devguide.remotemonster.com/drafts/drafts/simplevideocall-code-android
+
+* InCallService : 대부분의 스펙이 구현되어있고, 구현된 항목을 선언하고 요청만 해 주면 구현할 수 있다.
+
+* ConnectionService : VOIP개발에 더 적합함.
+GSM 통화를 개발하기 위해 각종 편의사항이 제공되는 InCallService와는 다르게,
+  연결을 직접 받아 등록하고 통화의 시작, 종료까지 모두 구현 해 주어야 함.
+  그래서 VOIP 구현에는 Open Source 라이브러리를 주로 사용함. (카톡 보이스톡도 그렇다.)
+  
+youtube 및 구글링을 통해 나오는 다양한 Calling App 구현을 일단 따라해보기로 결정.
+
+
